@@ -4,6 +4,6 @@ import junit.framework.TestCase;
 
 public class Tests extends TestCase {
 	public void testCreate(){
-		new Pawn();
+		Pawn pown = new Pawn("white");
 	}
 }
